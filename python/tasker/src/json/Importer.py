@@ -2,14 +2,14 @@ import json
 
 
 class Importer:
+    tasks = []
 
     def __init__(self):
         pass
 
     def read_tasks(self):
-        # TODO odczytaj plik i zdekoduj treść tutaj
-        pass
+        with open("taski.json") as f:
+            self.tasks = json.load(f)
 
     def get_tasks(self):
-        # TODO zwróć zdekodowane taski tutaj
-        pass
+        return self.tasks
