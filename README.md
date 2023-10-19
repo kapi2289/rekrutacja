@@ -6,6 +6,7 @@ Repozytorium z paczkami zadań na rekrutację 2023.
 
 Rozwiązane zestawy zadań
 
+- [x] HTML, CSS, JS (a tak właściwie Vue, Tailwind, Typescript)
 - [x] Python
 
 ## Zasady

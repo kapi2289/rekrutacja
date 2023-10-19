@@ -6,3 +6,13 @@ W każdym z tych plików znajduje się instrukcja zawierająca informację na te
 Zacznij od pliku index.html, przeanalizuj go, a następnie przejrzyj plik .css i .js. </p>
 
 <h3>Powodzenia!</h3>
+
+### Konfiguracja
+
+```bash
+cd html-css-js
+npm install
+npm run dev
+```
+
+Strona dostępna będzie pod adresem http://localhost:5173/
