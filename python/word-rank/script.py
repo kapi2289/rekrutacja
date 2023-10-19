@@ -29,3 +29,20 @@ sentences = [
 
 
 # Good luck! You can write all the code in this file.
+
+words = dict()
+
+for sentence in sentences:
+    sentence = sentence.lower()
+    for word in sentence.split():
+        if word in words:
+            words[word] += 1
+        else:
+            words[word] = 1
+
+i = 1
+
+for (word, n) in sorted(words.items(), key=lambda x: x[1], reverse=True):
+    print(f'{i}. "{word}" - {n}')
+    i += 1
+

@@ -2,6 +2,12 @@
 
 Repozytorium z paczkami zadań na rekrutację 2023. 
 
+## Rozwiązania
+
+Rozwiązane zestawy zadań
+
+- [x] Python
+
 ## Zasady
 
 Kandydaci na członków koła mają do wyboru kilka pakietów zadań. Każdy z pakietów jest umieszczony w osobnym katalogu na tym repozytorium. Wymagamy, aby kandydat wykonał zadania z przynajmniej jednego, dowolnego pakietu. 
